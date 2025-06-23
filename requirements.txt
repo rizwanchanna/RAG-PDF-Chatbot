@@ -1,9 +1,10 @@
 streamlit
-langchain
-langchain-chroma
-chroma
-langchain-community
-langchain-core
+langchain>=0.1.17
+langchain-core>=0.1.46
 langchain-groq
+langchain-chroma
+langchain-community
 langchain-huggingface
+chromadb
+pypdf
 python-dotenv
