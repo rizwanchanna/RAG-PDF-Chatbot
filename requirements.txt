@@ -1,6 +1,7 @@
 streamlit
 langchain
 langchain-chroma
+chroma
 langchain-community
 langchain-core
 langchain-groq
