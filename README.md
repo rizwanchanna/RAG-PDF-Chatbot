@@ -37,23 +37,29 @@ This is a Conversational Retrieval-Augmented Generation (RAG) application built 
 ---
 
 ## 🛠️ Installation
-
+```bash
 git clone https://github.com/rizwanchanna/RAG-PDF-Chatbot
 cd RAG-PDF-Chatbot
+```
 
 # Create virtual environment (optional)
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ## 🔑 Environment Variables
 Create a .env file in the root folder:
 HF_TOKEN="your_huggingface_token" in string
 
 ## 🗝️ How to Run
-streamlit run app.py
+```bash
+streamlit run streamapp.py
+```
 
 ## 🧪 Usage
 Enter your Groq API key in the sidebar.
@@ -71,9 +77,10 @@ If the question isn't related to your PDF, the assistant will say:
 "I don't know the answer of this question. Ask me about your PDF file only."
 
 ## Project Stucture
+```bash
 .
 ├── app.py               # Main Streamlit app
 ├── requirements.txt     # Python dependencies
 ├── .env                 # HuggingFace token
 └── README.md
-
+```
