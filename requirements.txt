@@ -5,5 +5,4 @@ langchain-core
 langchain-groq
 langchain-huggingface
 chroma
-PyPDFLoader
 python-dotenv
