@@ -4,5 +4,5 @@ langchain_community
 langchain-core
 langchain-groq
 langchain-huggingface
-chroma
+langchain-chroma
 python-dotenv
