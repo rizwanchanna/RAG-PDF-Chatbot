@@ -1,8 +1,8 @@
 streamlit
 langchain
+langchain-chroma
 langchain-community
 langchain-core
 langchain-groq
 langchain-huggingface
-chroma
 python-dotenv
