@@ -38,7 +38,6 @@ This is a Conversational Retrieval-Augmented Generation (RAG) application built 
 
 ## 🛠️ Installation
 
-```bash
 git clone https://github.com/rizwanchanna/RAG-PDF-Chatbot
 cd RAG-PDF-Chatbot
 
@@ -51,11 +50,9 @@ pip install -r requirements.txt
 
 ## 🔑 Environment Variables
 Create a .env file in the root folder:
-```bash
 HF_TOKEN="your_huggingface_token" in string
 
 ## 🗝️ How to Run
-```bash
 streamlit run app.py
 
 ## 🧪 Usage
