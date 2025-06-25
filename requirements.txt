@@ -10,4 +10,4 @@ pypdf
 python-dotenv
 tiktoken
 protobuf==3.20.3
-sqlite3>=3.35.0
+sqlite3
